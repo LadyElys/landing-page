@@ -1,0 +1,202 @@
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+html,
+body {
+    height: 100%;
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/SymlifyBg.png);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+span {
+    display: block;
+}
+
+h4 {
+    color: gray;
+    margin-bottom: 3%;
+}
+
+img {
+    margin-bottom: 5em;
+}
+
+#streamImg {
+    width: 9em;
+}
+
+h3 {
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+p {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 10%;
+    font-weight: 500;
+}
+
+.fa-circle {
+    margin-right: 5%;
+    color: #0499D6;
+}
+
+#diffBlue {
+    color: #036A94;
+}
+
+.square {
+    width: 35em;
+    height: 35em;
+    background-color: gray;
+}
+
+#filTitle {
+    word-spacing: 2px;
+}
+
+#filImg {
+    width: 7em;
+}
+
+#filIcon {
+    font-size: 1.8em;
+    width: 1.8em;
+}
+
+table {
+    width: 40em;
+}
+
+td {
+    font-weight: 700;
+    padding-top: 5%;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.pink {
+    color: #f7541e;
+}
+
+.orange {
+    color: #FFA11D;
+}
+
+.darkblue {
+    color: #036A94;
+}
+
+.lightblue {
+    color: #0499D6;
+}
+
+#form {
+    margin-top: 5%;
+}
+
+.form-control {
+    width: 15em;
+}
+
+.btn {
+    background-color: #0499D6;
+    color: white;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.ripple {
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+}
+
+.ripple:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background-image: radial-gradient(circle, #fff 10%, transparent 10.01%);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transform: scale(10, 10);
+    opacity: 0;
+    transition: transform .5s, opacity 1s;
+}
+
+.ripple:active:after {
+    transform: scale(0, 0);
+    opacity: .3;
+    transition: 0s;
+}
+
+main {
+    padding-bottom: 18em;
+}
+
+footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 18rem;
+    overflow: hidden;
+    color: white;
+}
+
+#footer {
+    color: white;
+}
+
+.footerImg {
+    width: 10em;
+    margin-bottom: 0;
+}
+
+#left,
+#right {
+    margin-top: -3%;
+}
+
+.copyright {
+    font-size: small;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3%;
+}
